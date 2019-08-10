@@ -8,7 +8,7 @@ buildscript {
         
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools.build:gradle:3.4.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -22,6 +22,20 @@ allprojects {
         
     }
 }
+
+// This block encapsulates custom properties and makes them available to all
+// modules in the project.
+ext {
+    // Sdk Versions
+    compileSdkVersion = 28
+    minSdkVersion = 21
+    targetSdkVersion = 28
+
+    // Support Libraries
+    supportLibVersion = "28.0.0"
+    constraintLayout = "1.1.3"
+}
+
 
 task clean(type: Delete) {
     delete rootProject.buildDir

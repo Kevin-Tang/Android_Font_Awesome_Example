@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">Android_Font_Awesome_Example</string>
-    <string name="action_settings">Settings</string>
+    <string name="font_awesome_example">Font Awesome Example</string>
+    <string name="text_Regular">Regular</string>
+    <string name="text_Solid">Solid</string>
+    <string name="text_Brand">Brand</string>
+
+    // BEGIN Regular Icons
+    <string name="fa_moon_regular"></string>
+
+    // BEGIN Solid Icons
+    <string name="fa_cat_solid"></string>
+
+    // BEGIN Brand Icons
+    <string name="fa_firefox_brand"></string>
+
+
+
 </resources>

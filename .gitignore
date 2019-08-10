@@ -1,8 +1,12 @@
+# new projects created with this gitignore files
 *.iml
 .gradle
 /local.properties
 /.idea/caches
 /.idea/libraries
+/.idea/tasks.xml
+/.idea/vcs.xml
+/.idea/misc.xml
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
@@ -11,3 +15,17 @@
 /build
 /captures
 .externalNativeBuild
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
