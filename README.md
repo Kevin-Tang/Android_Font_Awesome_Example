@@ -1,7 +1,7 @@
 # Android Font Awesome Example Project
 Example using Font Awesome icons for Android. 
 
-Included in this project is a strings.xml of all availible free font awesome icons on the latest version (5.10.1).
+Included in this project is a strings.xml of all free font awesome icons on the latest version (5.10.1).
 
 ## References
 `@string/fa_lightbulb` - Regular lightbulb icon
