@@ -36,3 +36,5 @@ Referencing Font Icons within a `TextView`
         android:textColor="@color/colorPrimary"
         app:fontFamily="@font/fa_regular_400" />
 ```
+## Demo
+<img src = "https://user-images.githubusercontent.com/6528777/62830223-fb95c900-bbd0-11e9-9749-ccdbbd2e3a4f.jpg" alt="Font Awesome Demo Screenshot" title="Font Awesome Demo" width="300">
