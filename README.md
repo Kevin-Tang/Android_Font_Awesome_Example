@@ -31,10 +31,9 @@ Referencing Font Icons within a `TextView`
 <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/fa_regular_400"
+        android:fontFamily="@font/fa_regular"
         android:text="@string/fa_lightbulb"
-        android:textColor="@color/colorPrimary"
-        app:fontFamily="@font/fa_regular_400" />
+        android:textColor="@color/colorPrimary" />
 ```
 ## Demo
 <img src = "https://user-images.githubusercontent.com/6528777/62830223-fb95c900-bbd0-11e9-9749-ccdbbd2e3a4f.jpg" alt="Font Awesome Demo Screenshot" title="Font Awesome Demo" width="300">
